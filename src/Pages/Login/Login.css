@@ -1,0 +1,82 @@
+.herder-page {
+  height: 100vh;
+  position: relative;
+}
+.login h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 0.15em;
+  color: #0096c7;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 54px;
+  text-transform: uppercase;
+}
+.login p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.login-page-img {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  margin-left: -25px;
+}
+.login-pages {
+  background: #c0cdd3;
+}
+.login-from p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #928b8b;
+  margin-top: 0;
+}
+.login-from h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+
+  letter-spacing: -0.05em;
+
+  color: #212121;
+}
+.login-input {
+  background-color: white;
+  width: 450px;
+  padding: 20px 20px 25px 20px;
+  
+}
+.input-password {
+  position: relative;
+}
+.login-from {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reveal {
+  position: absolute;
+  margin-left: -28px;
+  margin-top: 13px;
+}
+.login-input input {
+  border: 1px solid #8c8383;
+  border-radius: 8px;
+}
+.login-input button {
+  background: #0096c7;
+  border-radius: 8px;
+}
+.login-from button:hover {
+  background: #0096c7;
+}

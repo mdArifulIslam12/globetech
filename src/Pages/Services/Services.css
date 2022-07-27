@@ -1,0 +1,24 @@
+.services-title1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 59px;
+  color: white;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.services-title2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 68px;
+  letter-spacing: 0.15em;
+  color: #fff;
+}
+.services-page-logo{
+    transition: .3s;
+
+}
+.services-page-logo:hover{
+   display: flex;
+   justify-content: end;
+
+}

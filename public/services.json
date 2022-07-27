@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Software Solution",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content here'.",
+        "img": "https://i.ibb.co/f08Kxyk/software-1.png"
+    },
+    {
+        "id": 2,
+        "name": "E-Commerce Solution",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content here'.",
+        "img": "https://i.ibb.co/gzHvfbs/image-3.png"
+    },
+    {
+        "id": 3,
+        "name": "ERP Solution",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content here'.",
+        "img": "https://i.ibb.co/1Rwx82X/image-4-1.png"
+    },
+    {
+        "id": 4,
+        "name": "Bulk SMS Solution",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content here'.",
+        "img": "https://i.ibb.co/wR71FNB/bulk-1.png"
+    },
+    {
+        "id": 5,
+        "name": "Graphic Design",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content here'.",
+        "img": "https://i.ibb.co/zGtYMsN/image-5.png"
+    },
+    {
+        "id": 6,
+        "name": "Digital Marketing",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters, as opposed to using 'content here, content here'.",
+        "img": "https://i.ibb.co/RDKwS7j/image-6.png"
+    }
+]
