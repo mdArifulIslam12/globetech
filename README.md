@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# [Globetech live link](https://inventory-electronics.web.app/)
+
+### Globetech project
+
+1. Create React App
+2. React router
+3. React Icon
+5. React Bootstrap
+6. Bootstrap
+
+### Gobetech project
+This project responsive desktop and mobile.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

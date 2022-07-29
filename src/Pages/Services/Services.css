@@ -14,11 +14,19 @@
   color: #fff;
 }
 .services-page-logo{
-    transition: .3s;
-
+  transition: 1s;
+  transition-timing-function: ease-in-out;
 }
-.services-page-logo:hover{
-   display: flex;
-   justify-content: end;
 
+.service-plante:hover .services-page-logo{
+  margin-left: 927px;
+}
+@media only screen and (max-width: 768px) {
+  .services-title1{
+    font-size: 25px;
+  }
+  .services-title2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
 }

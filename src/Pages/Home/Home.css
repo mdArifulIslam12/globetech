@@ -4,7 +4,7 @@
 .home h2 {
   color: #28ace2;
   font-weight: 700;
-  font-size: 85px;
+  font-size: 73px;
   line-height: 122px;
 }
 .home-title {
@@ -26,9 +26,11 @@
 .line {
   width: 70px;
 }
-.home-page-logo:hover {
-  display: flex;
-  justify-content: end;
+.home-page-logo {
+  transition: 1s;
+}
+.home-page-plant:hover .home-page-logo {
+  margin-left: 260px;
 }
 .home-button {
   padding: 13px 30px;
@@ -48,4 +50,224 @@
   color: #8fe5ff;
   font-weight: 700;
   font-size: 18px;
+}
+.main {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.planets {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background-color: #d0f344;
+}
+.circle {
+  border: 3px solid #5cd9ff;
+  background-color: transparent;
+}
+.div-1 {
+  height: 110px;
+  width: 110px;
+  margin-left: -55px;
+  margin-top: -55px;
+}
+.div-2 {
+  height: 250px;
+  width: 250px;
+  margin-left: -125px;
+  margin-top: -125px;
+}
+.div-3 {
+  height: 380px;
+  width: 380px;
+  margin-top: -190px;
+  margin-left: -190px;
+}
+.div-4 {
+  height: 490px;
+  width: 490px;
+  margin-left: -245px;
+  margin-top: -245px;
+}
+.oval,
+.oval-2,
+.oval-3,
+.oval-4,
+.oval-5,
+.oval-6 {
+  height: 22px;
+  width: 22px;
+  top: 160px;
+  left: 125px;
+  margin-left: 11px;
+  margin-top: 11px;
+  background: linear-gradient(225deg, #c2f1ff -0.34%, #5cd9ff 100.05%);
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
+.oval-2 {
+  width: 50px;
+  height: 50px;
+  top: 299px;
+  left: 135px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.oval-3 {
+  width: 40px;
+  height: 40px;
+  top: 100px;
+  left: 362px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.oval-4,
+.oval-6 {
+  width: 35px;
+  height: 35px;
+  top: 288px;
+  left: 388px;
+  margin-left: 17.5px;
+  margin-top: 17.5px;
+}
+.oval-5 {
+  width: 50px;
+  height: 50px;
+  top: -43px;
+  left: 190px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.oval-6 {
+  top: 456px;
+  left: 220px;
+}
+.main:hover .oval {
+  top: 140px;
+  left: 315px;
+}
+.main:hover .oval-2 {
+  top: 170px;
+  left: 82px;
+}
+.main:hover .oval-3 {
+  top: 26px;
+  left: 180px;
+}
+.main:hover .oval-4 {
+  top: 402px;
+  left: 220px;
+}
+.main:hover .oval-5 {
+  top: 22px;
+  left: 370px;
+}
+.main:hover .oval-6 {
+  top: 360px;
+  left: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home h2 {
+    font-size: 50px;
+  }
+  .home {
+    padding: 10px;
+  }
+  .main {
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+  .planets {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #d0f344;
+  }
+  .circle {
+    border: 3px solid #5cd9ff;
+    background-color: transparent;
+  }
+  .div-1 {
+    height: 70px;
+    width: 70px;
+    margin-left: -35px;
+    margin-top: -35px;
+  }
+  .div-2 {
+    height: 150px;
+    width: 150px;
+    margin-left: -75px;
+    margin-top: -75px;
+  }
+  .div-3 {
+    height: 250px;
+    width: 250px;
+    margin-top: -125px;
+    margin-left: -125px;
+  }
+  .div-4 {
+    height: 350px;
+    width: 350px;
+    margin-left: -175px;
+    margin-top: -175px;
+  }
+  .oval,
+  .oval-2,
+  .oval-3,
+  .oval-4,
+  .oval-5,
+  .oval-6 {
+    height: 18px;
+    width: 18px;
+    top: 137px;
+    left: 108px;
+    margin-left: 9px;
+    margin-top: 9px;
+    background: linear-gradient(225deg, #c2f1ff -0.34%, #5cd9ff 100.05%);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+  }
+  .oval-2 {
+    width: 35px;
+    height: 35px;
+    top: 234px;
+    left: 140px;
+    margin-left: 17.5px;
+    margin-top: 17.5px;
+  }
+  .oval-3 {
+    width: 35px;
+    height: 35px;
+    top: 88px;
+    left: 247px;
+    margin-left: 17.5px;
+    margin-top: 17.5px;
+  }
+  .oval-4,
+  .oval-6 {
+    width: 30px;
+    height: 30px;
+    top: 237px;
+    left: 256px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .oval-5 {
+    width: 42px;
+    height: 42px;
+    top: -16px;
+    left: 139px;
+    margin-top: 21px;
+    margin-left: 21px;
+  }
+
+  .oval-6 {
+    top: 338px;
+    left: 120px;
+  }
 }

@@ -6,3 +6,9 @@
     font-size: 18px;
     line-height: 32px;
 }
+@media only screen and (max-width: 768px) {
+    .logo-img{
+        width: 130px;
+        height: 35px;
+    }
+}

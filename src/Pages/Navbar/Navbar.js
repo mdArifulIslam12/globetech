@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import CustomLink from "../CustomLink/CustomLink";
 import globetech from '../../assets/globetech logo.png'
 import './Nabar.css'
-import { Link,useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
     let path = location?.pathname ;
     let services = path.toString()
   return (
-    <div>
+    <div className="container">
       {
        services == '/login' ? '' : <nav className="navbar navbar-expand-lg navbar-light py-5">
         <div className="container">

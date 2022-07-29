@@ -10,15 +10,17 @@ const Home = () => {
     <div className="container home ">
       <div className="row d-flex justify-content-between">
         <div className="col-lg-5">
-          <div className="py-5 home-page-logo">
-            <div className="d-flex align-items-center ">
-              <div>
-                <img src={line2} alt="" className="d-block mb-1 line" />
-                <img src={line3} alt="" className="d-block mb-1 line" />
-                <img src={line4} alt="" className="d-block line" />
-              </div>
-              <div>
-                <img src={plantlogo} alt="" className="ms-2 plantlogo" />
+          <div className="home-page-plant">
+            <div className="py-5 home-page-logo">
+              <div className="d-flex align-items-center ">
+                <div>
+                  <img src={line2} alt="" className="d-block mb-1 line" />
+                  <img src={line3} alt="" className="d-block mb-1 line" />
+                  <img src={line4} alt="" className="d-block line" />
+                </div>
+                <div>
+                  <img src={plantlogo} alt="" className="ms-2 plantlogo" />
+                </div>
               </div>
             </div>
           </div>
@@ -37,7 +39,20 @@ const Home = () => {
             <button className="home-button1">Our Mission</button>
           </div>
         </div>
-        <div className="col-lg-6"></div>
+        <div className="col-lg-6 mt-5 pt-5 d-flex justify-content-center">
+          <div className="main">
+            <div className="div-1 planets "></div>
+            <div className="div-2 planets circle"></div>
+            <div className="div-3 planets circle"></div>
+            <div className="div-4 planets circle"></div>
+            <div className="planets oval"></div>
+            <div className="planets oval-2"></div>
+            <div className="planets oval-3"></div>
+            <div className="planets oval-4"></div>
+            <div className="planets oval-5"></div>
+            <div className="planets oval-6"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

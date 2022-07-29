@@ -17,6 +17,7 @@ const Services = () => {
 
     return (
         <div className='container services mb-5 pb-5'>
+          <div className='service-plante'>
           <div className="py-5 services-page-logo">
             <div className="d-flex align-items-center ">
               <div>
@@ -29,11 +30,12 @@ const Services = () => {
               </div>
             </div>
           </div>
+          </div>
           <div className='text-center mt-4 mb-5 services-title'>
             <h3 className='services-title1'>Services</h3>
             <h2 className='services-title2'>We provides services to our clients</h2>
           </div>
-          <div className='row row-cols-1 row-cols-md-3 g-5 mb-5'>
+          <div className='row row-cols-1 row-cols-md-3 g-5 mb-5 bb'>
             {
               services.map(service => <Service key={service.id} service={service}></Service>)
             }
