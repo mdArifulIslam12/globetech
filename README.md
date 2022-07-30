@@ -1,4 +1,4 @@
-# [Globetech live link](https://inventory-electronics.web.app/)
+# [Globetech live link](https://phenomenal-medovik-76e206.netlify.app)
 
 ### Globetech project
 
@@ -9,11 +9,10 @@
 6. Bootstrap
 
 ### Gobetech project
-This project responsive desktop and mobile.
+This project is responsive for desktop and mobile devices. I tried to make the project pixel perfect. 
 
-## Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm install`
 
 ## Available Scripts
 
